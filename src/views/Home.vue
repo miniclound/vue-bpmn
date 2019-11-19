@@ -1,14 +1,14 @@
 <template>
-  <vue-bpm/>
+  <vue-bpmn />
 </template>
 
 <script>
-  import VueBpm from 'components/VueBpm'
-  export default {
-    components: {
-      VueBpm
-    }
+import VueBpmn from "components/VueBpmn";
+export default {
+  components: {
+    VueBpmn
   }
+};
 </script>
 
 <style lang="scss" scoped>

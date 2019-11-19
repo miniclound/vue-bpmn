@@ -1,5 +1,5 @@
 由于公司前段时间在打造一个开发平台，而我主要负责工作流模块，于是就接触到了`bpmn-js`。但众所周知，`bpmn-js` 文档是全英的，相关资料少，填坑的人更少，所以开发起来并没有那么好上手。于是我研究了一段时间，没少踩坑，但收获颇丰，今天就跟大家分享一下。`PS：以前一直做伸手党，今天要扳回一局，先上效果图～`
-![进阶版 bpmn-js 效果图](https://upload-images.jianshu.io/upload_images/6344130-af740b951c13d6fb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![进阶版 bpmn-js 效果图](..assets/效果图（进阶一）.jpg)
 
 # 什么是 bpmn-js ?
 一个`BPMN 2.0` 渲染工具，简单来说，就是流程设计器。前端利用这样的一个流程设计器，设计流程，导出 `xml`，然后传给后端。启动 activiti 工作流引擎，最后生成流程实例。
@@ -156,7 +156,7 @@ modeling.updateProperties(this.element, {color: color})
 有兴趣的同学可以持续关注，我会继续写下去。毕竟，公司的工作流模块已经完整上线了，我还有好多可以分享的～噢对了，我还把左侧工具栏的样式以及部分功能给改了,同样有着像素眼的同学可以照搬哈哈
 
 
-# my-h5
+# vue-bpmn
 
 ## Project setup
 ```
